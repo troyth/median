@@ -15,6 +15,9 @@ Median keeps with the conventions established in the [Ezel](http://ezeljs.com/) 
 (Note: Without having a kernal secret and an Are.na API token filled out in an .env file, you will be unable to make transactions through your local server. This is purely for educational purposes.)
 
 * `brew install mongo`
+
+If you are using Mac OS X 10.9, see this Gist for further instructions to install Mongo: https://gist.github.com/adamgibbons/cc7b263ab3d52924d83b
+
 * `brew install nvm`
 * `nvm install 0.12`
 * `nvm alias default 0.12`
