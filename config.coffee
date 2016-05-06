@@ -5,6 +5,12 @@
 # for development.
 #
 
+# Load any undefined ENV variables from a specified file
+env = require "node-env-file"
+env_file_path = __dirname + "/.env"
+env env_file_path, {overwrite: true}
+
+
 module.exports =
   NODE_ENV: "development"
   PORT: 5000
